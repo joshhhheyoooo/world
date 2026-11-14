@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="theme-color" content="#070b1f">
-<title>A Little Place for You</title>
+<title>A quiet space in my world</title>
 
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -384,9 +384,9 @@ section.final{padding-bottom:0;overflow:hidden}
 
 
 <section class="welcome" id="welcome">
-  <h1>I made a <em>little place</em> for you.</h1>
-  <p class="sub">Somewhere you can stay whenever you need a little reminder.</p>
-  <button class="enter" id="enterBtn" type="button">Enter my little world</button>
+  <h1>i made a <em>little place</em> for you, baby.</h1>
+  <p class="sub">this is a website where you can stay po whenever you need a little reminder.</p>
+  <button class="enter" id="enterBtn" type="button">Enter the little world</button>
   <div class="welcome-waves" id="welcomeWaves" aria-hidden="true"></div>
 </section>
 
@@ -397,14 +397,14 @@ section.final{padding-bottom:0;overflow:hidden}
   <section class="chapter" id="garden">
     <p class="overline reveal">Chapter one</p>
     <h2 class="reveal">A Little Garden of Thoughts</h2>
-    <p class="intro reveal">Tap a flower. Each one is something I notice about you.</p>
+    <p class="intro reveal">Tap a flower. Each one is something I notice about you, love.</p>
 
     <div class="garden-wrap reveal">
       <div class="garden" id="gardenField"></div>
       <div class="thought idle" id="thought" aria-live="polite">
         <p class="body">Pick one. They’re all true.</p>
       </div>
-      <p class="count" id="count">0 of 6 found</p>
+      <p class="count" id="count">0 of 10 found</p>
     </div>
 
     <a class="next" href="#letters">Keep going <span>↓</span></a>
@@ -414,7 +414,7 @@ section.final{padding-bottom:0;overflow:hidden}
   <section class="chapter" id="letters">
     <p class="overline reveal">Chapter two</p>
     <h2 class="reveal">Whenever You Need Me</h2>
-    <p class="intro reveal">Keep these for the right moment. Open one when you need it.</p>
+    <p class="intro reveal">Keep these po whenever you need it.</p>
     <div class="envs reveal" id="envs"></div>
     <a class="next" href="#reminder">Keep going <span>↓</span></a>
   </section>
@@ -423,7 +423,7 @@ section.final{padding-bottom:0;overflow:hidden}
   <section class="chapter scene" id="reminder">
     <div class="bigmoon" aria-hidden="true"></div>
     <p class="overline">A little reminder</p>
-    <p class="msg" id="msg">You don't have to compete for my attention, and you don't have to question whether you matter to me. I want to keep making time for you, even on ordinary days.</p>
+    <p class="msg" id="msg">i hope you never feel na kailangan mong kunin yung attention ko or magdoubt ka love on how important u are sa akin. I want to make time for you, really. kahit sa mga simple na araw lang. i want you to be part of my days, even when nothing special is happening po</p>
     <div class="water" aria-hidden="true">
       <div class="reflection" id="refl"></div>
     </div>
@@ -432,11 +432,11 @@ section.final{padding-bottom:0;overflow:hidden}
   
   <section class="chapter final" id="final">
     <p class="overline reveal">One last thing</p>
-    <h2 class="reveal">A Letter, For You</h2>
+    <h2 class="reveal">Another Letter, For You</h2>
     <div class="letter-wrap" id="letterWrap">
       <div class="paper" id="paper" title="Tap to show the whole letter"></div>
       <p class="skip-hint" id="skipHint">Tap the letter to show it all at once</p>
-      <p class="closing" id="closing">There's always a little place for you here. <span class="heart">♡</span></p>
+      <p class="closing" id="closing">There's always a little place for u in my heart, baby. <span class="heart">♡</span></p>
     </div>
     <button class="top-link" id="toTop" type="button">Back to the stars ↑</button>
     <div class="final-water" id="finalWater" aria-hidden="true"></div>
@@ -453,69 +453,127 @@ section.final{padding-bottom:0;overflow:hidden}
   </div>
 </div>
 
-<noscript><p style="position:relative;z-index:5;padding:2rem;text-align:center">This little place needs JavaScript to open. ♡</p></noscript>
+<noscript><p style="position:relative;z-index:5;padding:2rem;text-align:center"></p></noscript>
 
 <script>
 
 
 
-const SIGNATURE = "Always yours";
+const SIGNATURE = "always yours, kabute";
 
 
 const GARDEN = [
-  { label:"Your smile", color:"#f3b6d4", h:96,
-    text:"Your smile is the first thing I think of when I think of you. It doesn’t try to impress anyone, and somehow that’s exactly why it gets me every time." },
-  { label:"Who you are", color:"#b9a7ff", h:128,
-    text:"You’re easy to be myself around. There’s something calm and genuine about you that makes even ordinary conversations feel like the best part of my day." },
-  { label:"Your confidence", color:"#ffe3a8", h:84,
-    text:"There’s a quiet confidence in the way you carry yourself. You don’t have to be the loudest person in the room to be the one I notice. I hope you can see in yourself what I see." },
-  { label:"Your kindness", color:"#9fd8ff", h:136,
-    text:"You’re kind in ways that never ask for credit. The way you care about people, the way you listen, the things you remember. None of it goes unnoticed, at least not by me." },
-  { label:"The little things", color:"#f7a8b8", h:104,
-    text:"You do small things without realizing it: the way you check in, the little jokes, how you make a plain day feel lighter. You think they’re nothing. They’re the things I hold on to." },
-  { label:"Just as you are", color:"#c9b6ff", h:90,
-    text:"You don’t have to be anyone else for me. Not more polished, not more talkative, not more anything. The version of you on a tired, ordinary day is the one I’m happiest to know." }
-];
+  {
+    label: "Your voice",
+    color: "#f3b6d4",
+    h: 100,
+    text: "i like hearing your voice, kahit wala tayong masyadong pinag uusapan, love. somehow, it makes me feel better, and i always enjoy having you around."
+  },
+  {
+    label: "Your presence",
+    color: "#b9a7ff",
+    h: 110,
+    text: "i don't think you realize how much i enjoy your presence. kahit we're doing our own things, i'm happy knowing you're there."
+  },
+  {
+    label: "Your little stories",
+    color: "#ffe3a8",
+    h: 120,
+    text: "i like listening to your stories,your rant about sa work, and even the random ones. i want to know about your day, the things that made you happy, and even the little things na u just want to talk about."
+  },
+  {
+    label: "Your softer side",
+    color: "#9fd8ff",
+    h: 115,
+    text: "i like seeing the side of you that not everyone gets to see. you don't always have to be strong or okay around me.again love, you can just be yourself."
+  },
+  {
+    label: "How you care",
+    color: "#f7a8b8",
+    h: 120,
+    text: "i know you're not always vocal about what you feel, and that's okay. i notice the way you show you care, and i appreciate it more than you think."
+  },
+  {
+    label: "Your little habits",
+    color: "#c9b6ff",
+    h: 110,
+    text: "there are little things you do that i find cute, even if you don't notice them yourself. i don't think i can explain all of them, but they're some of the things that make you, you."
+  },
+  {
+    label: "Your dreams",
+    color: "#f3b6d4",
+    h: 120,
+    text: "i like hearing about the things you want to achieve. i hope you never feel like you have to figure everything out agad. i'll always be happy to see you grow and reach the things you want."
+  },
+  {
+    label: "Our ordinary days",
+    color: "#9fd8ff",
+    h: 110,
+    text: "i don't always need something special to happen whenever we're together. kahit simpleng araw lang, talking to you or spending time with you is already something i look forward to."
+  },
+  {
+    label: "The way you love",
+    color: "#ffe3a8",
+    h: 120,
+    text: "i know we express our feelings differently, and i never want you to feel like you have to keep up with mine. i appreciate the way you show your love, even in ways you might think are small."
+  },
+  {
+    label: "Why I choose you",
+    color: "#c9b6ff",
+    h: 125,
+    text: "It's not just because you're pretty or because you make me happy. it's because i genuinely want to know you more, understand you better, and be part of your life. ikaw yung gusto kong makasama in the future love love."
+  }
+]
 
 
 const LETTERS = [
-  { when:"you’re tired",
-    body:[
-      "Hey, you. I can tell it’s been a long one.",
-      "You don’t have to be productive, or cheerful, or okay right now. You’re allowed to just be tired. Put everything down for a little while. Drink some water, get comfortable, let your shoulders drop. Nothing needs to be solved tonight.",
-      "I’m proud of you for getting through today, even if it didn’t feel like much. Rest. I’ll still be here."
-    ]},
-  { when:"you miss me",
-    body:[
-      "I miss you too. More than I probably say.",
-      "Being busy, or being apart, doesn’t make you any less on my mind. You come up in the middle of ordinary things: when something funny happens, when I see something I want to show you.",
-      "So if today feels a little far, hold onto this. Wanting to see you, talk to you, be around you, that part doesn’t go away. We’ll make the time. I want to."
-    ]},
-  { when:"you’re overthinking",
-    body:[
-      "Take a slow breath with me first.",
-      "Your mind is telling you a story right now, and I’d gently ask you not to believe all of it. Most of the worst versions only exist in your head, at this hour, when everything feels louder than it is.",
-      "If something is wrong, I’ll tell you. If something is bothering me, I’ll say it. Quiet doesn’t mean distance, and a slow reply doesn’t mean I care less. You can always just ask me. I’d much rather answer than have you carry it alone."
-    ]},
-  { when:"you need reassurance",
-    body:[
-      "Let me say the thing plainly.",
-      "You matter to me. You’re not an afterthought, and you’re not something I fit in when there happens to be room. You’re someone I choose.",
-      "You don’t have to compete for my time or earn your place here. You already have it. And on the days you doubt that, come back and read this again."
-    ]},
-  { when:"you feel like you’re not enough",
-    body:[
-      "I’m going to disagree with you on this one, gently, but firmly.",
-      "You are enough. Not after you’ve achieved more, not once you’ve figured everything out, not only when you’re at your best. Right now, exactly as you are.",
-      "The things you’re hard on yourself about are things I either haven’t noticed or quietly like about you. You’re not too much, and you’re not too little. Be as kind to yourself tonight as you would be to me."
-    ]}
+  {
+    when: "you're tired",
+    body: [
+      "hey, babyy. i know you might have had a long day.",
+      "you don't always have to be okay or keep yourself busy. it's okay to take a break muna. rest ka lang, drink some water, and don't pressure yourself to do everything today. you deserve to have some time for yourself, too.",
+      "i'm proud of you for making it through the day, kahit hindi naging madali. get some rest, okay? I'll be here."
+    ]
+  },
+  {
+    when: "you miss me",
+    body: [
+      " i miss you too, more than i probably get to say.",
+      "kahit busy us or hindi us nakakapag-usap, that doesn't mean i don't think about you. there are random moments when something reminds me of you, and i end up wishing na kasama kita or i could tell you about it.",
+      "i hope we get to spend time together soon. i miss talking to you, hearing your voice, and just having you around. i want to make time for those little moments with you."
+    ]
+  },
+  {
+    when: "you're overthinking",
+    body: [
+      "hey, take a breath muna, babyy.",
+      "i know sometimes your thoughts can get a little overwhelming, but i hope you don't let them convince you of things that aren't true. you don't have to figure everything out on your own.",
+      "if something's bothering me, i'll tell you naman. And if something doesn't feel right, you can always ask me. i'd rather we talk about it instead of you keep worrying about things without knowing what's really going on."
+    ]
+  },
+  {
+    when: "you need reassurance",
+    body: [
+      "i just want to remind you, baby.",
+      "you matter to me, shay. you're not just someone na kinakausap ko lang, okie? i genuinely want you to be part of my days, even when things get busy or when we're both doing our own things.",
+      "i want to keep choosing you and making time for you, even on ordinary days po."
+    ]
+  },
+  {
+    when: "you feel like you're not enough",
+    body: [
+      "i hope you don't see yourself that way, love love.",
+      "you don't have to achieve more, change anything, or be at your best just to feel like you're enough. i like you for who you are, even on days when you don't feel good about yourself.",
+      "i hope you learn to be a little kinder to yourself. i wish you could see yourself the way i see you, but until then, i'll keep reminding you that you don't have to be anyone else for me."
+    ]
+  }
 ];
 
 
 const FINAL_LETTER = [
-  "I know I can't always be there at the exact moment you need someone, and sometimes things don't go as planned. But I hope you never feel like you have to stop needing me. I want us to keep finding time for each other, to understand each other better, and to enjoy even the simplest moments together.",
-  "You don't have to be as vocal as I am to make me feel loved. I appreciate you in ways I probably don't say enough.",
-  "And if there's one thing I want you to remember, it's that I'm here because I want to be. It's you I want to spend my time with."
+  "i know i can't always be there at the exact moment you need someone, and sometimes things don't go as planned. but i hope you never feel like you have to stop needing me. i want us to keep finding time for each other, to understand each other better, and to enjoy even the simplest moments together.",
+  "you don't have to be as vocal as i am to make me feel loved. i appreciate you in ways i probably don't say enough.",
+  "and if there's one thing i want you to remember, it's that i'm here because i want to be. it's you i want to spend my time with."
 ];
 
 
